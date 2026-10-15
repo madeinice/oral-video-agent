@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "avatar_reference": null,
+  "voice_reference": null,
+  "reference_videos": [],
+  "width": 1080,
+  "height": 1920,
+  "fps": 25,
+  "active_hanzi_per_second": 5,
+  "style": "warm",
+  "subtitles": "zh",
+  "background_music": false,
+  "persistent_logo": false,
+  "provider": "runninghub",
+  "tts": "IndexTTS2",
+  "avatar": "InfiniteTalk",
+  "renderer": "Remotion",
+  "workflow_api_pages": {},
+  "budget": null
+}

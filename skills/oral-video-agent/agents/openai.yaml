@@ -1,0 +1,4 @@
+interface:
+  display_name: "oral-video-agent"
+  short_description: "按口播词编排数字人、素材与动效，交付可继续编辑的 Remotion 视频工程"
+  default_prompt: "使用 $oral-video-agent，先展示完整文案分镜、人物与声音参考、语速、画幅和画质供我审核，确认后制作视频并保留可编辑工程。"

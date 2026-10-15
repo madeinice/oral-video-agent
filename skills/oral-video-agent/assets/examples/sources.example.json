@@ -1,0 +1,5 @@
+{
+  "assets": [],
+  "required_fields_per_asset": ["local_file", "source_page", "author", "license_page", "retrieved_at", "attribution", "usage_scene_ids"],
+  "note": "Add one record for each external B-roll, portrait, image and sound effect. Do not publish private project records."
+}

@@ -1,0 +1,17 @@
+{
+  "demo": true,
+  "script": "把日常记录下来，让数据帮助我们思考。",
+  "meta": {"width": 1080, "height": 1920, "fps": 25, "duration": 4, "background": "#F5EFE4", "subtitle_size": 48},
+  "scenes": [
+    {"id": "intro", "text": "把日常记录下来，", "start": 0, "end": 1.6, "needs_host": false},
+    {"id": "steps", "text": "让数据帮助我们思考。", "start": 1.6, "end": 4, "needs_host": false}
+  ],
+  "layers": [
+    {"id": "demo-title", "kind": "text", "start": 0, "end": 1.6, "text": "让生活\n留下记录", "rect": [90, 620, 900, 360], "font_size": 112, "color": "#49382B"},
+    {"id": "steps", "kind": "steps", "start": 1.6, "end": 4, "rect": [220, 600, 700, 600], "items": [{"text": "记录", "at": 1.6}, {"text": "数据化", "at": 2.35}, {"text": "分析", "at": 3.1}]}
+  ],
+  "captions": [
+    {"start": 0.1, "end": 1.5, "text": "把日常记录下来"},
+    {"start": 1.6, "end": 3.9, "text": "让数据帮助我们思考"}
+  ]
+}

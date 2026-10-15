@@ -1,0 +1,7 @@
+{
+  "node": "node",
+  "browser": null,
+  "native_dir": null,
+  "port": 3039,
+  "note": "Resolve node from PATH or set its absolute path. Use existing Chrome and matching Remotion native binaries when available."
+}
