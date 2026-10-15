@@ -45,17 +45,23 @@ Skill 会先在对话中完整展示 [生成前审核单](assets/review-template
 
 > 只把“记录数据”这句的画面改成竖向步骤线，复用现有声音和人物视频。
 
+如果已经单独安装且有权使用 `video-talkcraft`，可说：
+
+> 使用 oral-video-agent 制作这条片；动效剪辑启用 video-talkcraft。配音、人物和已确认脚本沿用本项目，按口播词选动效配方，保留分层 Remotion 工程。
+
+Agent 会在审核稿里写清画面动作，音频锁定后用词级时间戳定位，再按 [动效协作说明](references/video-talkcraft.md) 选配方并落到本工程。`video-talkcraft` 是可选的外部 Skill，不随本仓库安装；它的[许可证](https://github.com/Vincentwei1021/video-talkcraft/blob/main/LICENSE)对商业使用要求事先取得作者授权。
+
 ## 安装
 
 本地：把整个文件夹放入所用 Agent 支持的 skills 目录，或让 Agent 按绝对路径读取 `SKILL.md`。不同宿主的技能目录不同，不需要把代码、模型或素材重复复制到系统盘。
 
-发布到 GitHub 后，可用 Skills CLI。将下面的 `OWNER/REPO` 换成你的真实仓库名：
+从 GitHub 安装本 Skill：
 
 ```text
-npx skills add OWNER/REPO --skill oral-video-agent -g
+npx skills add madeinice/oral-video-agent --skill oral-video-agent -g
 ```
 
-此命令是发布后的安装方法；仓库尚未上传时不能用它完成远端安装。详见 [发布说明](references/publishing.md)。
+此命令只安装本 Skill，不会安装 `video-talkcraft`。详见 [发布说明](references/publishing.md)。
 
 ## 依赖
 

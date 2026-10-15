@@ -1,6 +1,6 @@
 # oral-video-agent
 
-中文口播视频制作 Skill：先审核文案、分镜、人物与声音参考、语速、画幅和画质；确认后按需生成配音和数字人，再用 Remotion 制作可编辑的成片。
+中文口播视频制作 Skill：先审核文案、分镜、人物与声音参考、语速、画幅和画质；确认后按需生成配音和数字人，再用 Remotion 制作可编辑的成片。可选接入独立安装的 `video-talkcraft` 设计动效，见 [动效协作说明](skills/oral-video-agent/references/video-talkcraft.md)。
 
 完整说明：[oral-video-agent README](skills/oral-video-agent/README.md) · [Skill 入口](skills/oral-video-agent/SKILL.md) · [审核单模板](skills/oral-video-agent/assets/review-template.md)
 
